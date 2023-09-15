@@ -5,6 +5,9 @@
 
 
 
+<br>
+
+
 
 # What can I do with Node.js?
 
@@ -26,6 +29,12 @@
 * Is node.js syncronous or asyncronous?
 * How PHP, ASP and node.js handles file?
 * Can Node.js execute HTML file?
+
+<br>
+
+# RoadMap
+![Screenshot 2023-09-15 212536](https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/884c571e-46f9-4896-abc9-c590bfae903c)
+
 
 <br>
 
@@ -52,6 +61,8 @@ Terminal is now acting as console.
 
 
 <br>
+
+
 
 # Dynamic Page Content
 > Node.js can generate dynamic page content means that Node.js can `create web pages` with content that changes in real-time based on data, user input, or other factors. This allows for the creation of interactive and personalized web applications where the content isn't static but can be updated or customized on the fly.
@@ -86,6 +97,7 @@ https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/0d1e6a7d-077f
 const http= require("http");
 ```
 https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/04d44e03-6388-41dc-b5fe-157edee27a43
+
 
 
 
