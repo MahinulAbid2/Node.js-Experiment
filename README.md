@@ -1,5 +1,5 @@
 # Topic
-* [What Can I Do with Node.js](#what-can-i-do-with-node.js) <br>
+* [What Can I Do with Node.js](#what-can-i-do-with-nodejs) <br>
 * [Node.js Environment](#nodejs-environment) <br>
         i. [Execute JavaScript with Node.js](#execute-javascript-with-nodejs)
 
@@ -49,3 +49,44 @@ node index.js
 Terminal is now acting as console. 
 
 > Node.js is executing file only once.
+
+
+<br>
+
+# Dynamic Page Content
+> Node.js can generate dynamic page content means that Node.js can `create web pages` with content that changes in real-time based on data, user input, or other factors. This allows for the creation of interactive and personalized web applications where the content isn't static but can be updated or customized on the fly.
+
+<br>
+
+
+
+> How can I create webpage with node.js?
+
+<br>
+
+## Creating Webpage with Node.js
+
+
+https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/0d1e6a7d-077f-4b6d-89a2-248268e9c599
+
+
+<br>
+<br>
+
+### Things needed to create Dynamic Webpage with Node.js
+* `http` module
+* `createServer()` function.
+
+<br>
+
+#### Http module 
+* `Http module` gets included at the top of Node.js javascript file.
+
+```javascript
+const http= require("http");
+```
+https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/04d44e03-6388-41dc-b5fe-157edee27a43
+
+
+
+
