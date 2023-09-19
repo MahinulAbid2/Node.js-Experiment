@@ -48,10 +48,13 @@ Focus on noting section wise. Which section comes after which section.
 
 <br>
 
-# Node.js Environment
+# Node.js Environment Setup
+* What is it: Node.js is an Environment which either lives `locally` in a computer, or in a `web server`.
+* In order to work with node.js I have to install it on local computer.
 * Go to https://nodejs.org/en/download
 * Download, install Node.js exe file.
 > No more extra work
+* 
 
 <br>
 
@@ -72,18 +75,10 @@ Terminal is now acting as console.
 
 <br>
 
-
-
 <br>
 
-
-
-> How can I create webpage with node.js?
-
-<br>
-
-## Creating Webpage with Node.js
-
+# Fundamentals Of Node.js
+* Adding Module to Project.
 
 https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/0d1e6a7d-077f-4b6d-89a2-248268e9c599
 
