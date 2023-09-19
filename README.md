@@ -79,6 +79,7 @@ Terminal is now acting as console.
 
 # Fundamentals Of Node.js
 * Adding Module to Project.
+* Creating a basic server that take request and send a BASIC response.
 
 https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/0d1e6a7d-077f-4b6d-89a2-248268e9c599
 
