@@ -90,8 +90,14 @@ https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/0d1e6a7d-077f
 
 <br>
 
+
+
 #### Http module 
 * `Http module` gets included at the top of Node.js javascript file.
+
+  <br>
+  
+
 
 ```javascript
 const http= require("http");
@@ -99,6 +105,33 @@ const http= require("http");
 https://github.com/MahinulAbid2/Node.js-Experiment/assets/70069009/04d44e03-6388-41dc-b5fe-157edee27a43
 
 
+* After including HTTP module in the project, I've unlocked some features of NODE.js.
+* I can now `create server` using `HTTP` module.
 
+<br>
+
+### How to create server using HTTP module?
+
+```javascript
+var http = require('http');
+
+//create a server object:
+http.createServer(function (req, res) {
+//here will be some operation related to the request and response according to the request.
+}).listen(8080); //the server object listens on port 8080
+```
+<br>
+
+### Alright. I have been talking about Node.js module. But what this node.js module actually is?
+
+<details>
+<summary> <ins> <b>Node.js Module (click to expand)</b> </ins></summary>
+
+
+  # what is Node.js Module?
+</details>
+
+
+<br>
 
 
