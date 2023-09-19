@@ -1,7 +1,9 @@
 # Topic
 * [What Can I Do with Node.js](#what-can-i-do-with-nodejs) <br>
 * [Node.js Environment](#nodejs-environment) <br>
-        i. [Execute JavaScript with Node.js](#execute-javascript-with-nodejs)
+        i. [Execute JavaScript with Node.js](#execute-javascript-with-nodejs) <br>
+        ii. [What is Dynamic Page content](#dynamic-page-content)
+        iii. [how can ](#creating-webpage-with-nodejs)
 
 
 
@@ -135,16 +137,20 @@ http.createServer(function (req, res) {
   * Up above in the example, first I used `const http = require('http');`
   * Fun Fact: The `require function` is specific to Node.js. I can not use it in normal javascript which runs in the browser.
   * Think this `http` as an object. If this `http` object has a method(function) name `greet`, How would I execute/call the method(function)?
-  * `http.greet()` - this will be the syntax.
-  * which I can access by doing :
+  * `http.greet()` - this is how to call the method which is in http object.
+  * <ins> Again, this is just imaginary example. </ins>
+
 ```javascript
 const http= require("http");
-//imported the http object.
-// now that object has a method named greet
-// if we call that function, it will console.log("hello Mr/Mrs/Ms")
-// how can I do it?
+// imported the http object.
+// now that object has a method named "createServer()" which takes a function as parameter.
 
-http.greet();
+http.createServer("this takes an anonymous function as parameter");
+
+http.createServer(("this anonymoys function takes two parameter")=>{});
+// first parameter is the "request" parameter. which is an object.
+// second parameter is "response" object.
+// NOTE THAT: both the parameters are OBJECT.
 
 
 ``` 
@@ -153,4 +159,6 @@ http.greet();
 
 <br>
 
+### createServer
+* What does createServer() method do?
 
