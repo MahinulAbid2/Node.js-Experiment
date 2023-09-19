@@ -121,6 +121,8 @@ http.createServer(function (req, res) {
 }).listen(8080); //the server object listens on port 8080
 ```
 <br>
+<br>
+<br>
 
 ### Alright. I have been talking about Node.js module. But what this node.js module actually is?
 
@@ -129,6 +131,23 @@ http.createServer(function (req, res) {
 
 
   # what is Node.js Module?
+
+  * Up above in the example, first I used `const http = require('http');`
+  * Fun Fact: The `require function` is specific to Node.js. I can not use it in normal javascript which runs in the browser.
+  * Think this `http` as an object. If this `http` object has a method(function) name `greet`, How would I execute/call the method(function)?
+  * `http.greet()` - this will be the syntax.
+  * which I can access by doing :
+```javascript
+const http= require("http");
+//imported the http object.
+// now that object has a method named greet
+// if we call that function, it will console.log("hello Mr/Mrs/Ms")
+// how can I do it?
+
+http.greet();
+
+
+``` 
 </details>
 
 
