@@ -1,9 +1,16 @@
+<b> PunchLine To Remember:</b> <br> The more information is added to the note, the more it is harder for me to understand the topic.
+.... I think this is my issue.... as a programmer, I think I should build a habit of reading each and every word since finding bugs in code uses the same skills.
+
+Focus on noting section wise. Which section comes after which section.
+<br>
+<br>
+
+
 # Topic
 * [What Can I Do with Node.js](#what-can-i-do-with-nodejs) <br>
 * [Node.js Environment](#nodejs-environment) <br>
         i. [Execute JavaScript with Node.js](#execute-javascript-with-nodejs) <br>
-        ii. [What is Dynamic Page content](#dynamic-page-content)
-        iii. [how can ](#creating-webpage-with-nodejs)
+        ii. [how can ](#creating-webpage-with-nodejs)
 
 
 
@@ -14,6 +21,7 @@
 # What can I do with Node.js?
 
 * Node.js can generate dynamic page content.
+> Node.js can generate dynamic page content means that Node.js can `create web pages` with content that changes in real-time based on data, user input, or other factors. This allows for the creation of interactive and personalized web applications where the content isn't static but can be updated or customized on the fly.
 * Node.js can create, open, read, write, delete, and close files on the server
 * Node.js can collect form data
 * Node.js can add, delete, modify data in your database
@@ -65,9 +73,6 @@ Terminal is now acting as console.
 <br>
 
 
-
-# Dynamic Page Content
-> Node.js can generate dynamic page content means that Node.js can `create web pages` with content that changes in real-time based on data, user input, or other factors. This allows for the creation of interactive and personalized web applications where the content isn't static but can be updated or customized on the fly.
 
 <br>
 
